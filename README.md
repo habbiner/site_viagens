@@ -40,16 +40,17 @@ Site desenvolvido como prova do primeiro semestre da faculdade de Desenvolviment
 - BOX-SHADOW -> Adiciona efeito de sombra ao redor do componente;
 - TRANSITION -> Altera o estado da componente por tempo determinado;
 - CURSOR -> Modifica o cursor do mouse ao passar ele por cima do componente com essa configuração;
-- FLOAT -> Define se o item ficara no seu local de origem, ou fluruando 
-- .CONTAINER1 ->
-- .CARD1, CARD2, CARD3 ->
-- .CORPO ->
-- .COLUNA ->
-- .CARD ->
-- .CARD:HOVER ->
-- IMAGE ->
-- .PACOTES ->
-- .CARD_PACOTES ->
-- .COLUNA_CAMPING ->
-- FOOTER ->
+- FLOAT -> Define se o item ficara no seu local de origem, ou flutuando; 
+- .MENU-BAR -> Configuração da barra de navegação, background-color define a cor azul que ela possui, color: white modifica as letras para a cor branca, justify-content: space-between; faz com que os itens alinhados tenham um espaço igual entre si e o width: 100% faz com que a barra ocupe 100% da largura da tela;
+- A e A:HOVER, BUTTON:HOVER -> text-decoration faz com que o A fique sem o link azul e o sublinhado o color configurado no A da linha 20 do style.css faz com que as letras fique com a cor branca e o mouse modifique por conta do pointer. Ja na linha 26 ao usar o hover os links passaram a ter o meio branco e as letras vermelhas;
+- .CONTAINER1 -> Esse container foi criado usando display: flex para fazer com que os itens de bloco fique em linha e o justify-content: space-between faz com que os itens deste container se distancie recebam um espaço ecatamente igual entre eles;
+- .CARD1, CARD2, CARD3 -> As class do card possui a mesma configurações, o text-align: center centraliza todos componente de texto e imagem dentro do corpo do card, enquanto a tag width e height definem a largura e altura que os cards tem;
+- .CORPO -> A tag corpo configura o "fundo" onde os card estão posicionados, o backgroung-image define qual imagem será adicionada ao fundo, o background-size: cover faz com que a imagem preencha todo o espaço em que ela se encontra. O display: flex; faz com que os itens de bloco se transformem em linha coloca o texto no centro, flex-direction: column; dispõe os arquivos em coluna e text-align: center; centraliza tudo dentro da div;
+- .COLUNA -> Coloca os item em linha com o display: flex; e centraliza os cards com o justify-content: center; e align-items: center;
+- .CARD -> border-radius arredonda as pontas do card e box-shodow cria uma pequena sombra ao redor dele. padding e magin ajusta o espaço entre os cards e o conteudo interno, width define o tamanho dele e o transition configura a animação de "destacar" e instrui que todos os elementos serão afetados pela transição com a duração de 0.3s e o ease-out define que a animação começa de forma rapida e diminui gradualmente;
+- .CARD:HOVER -> hover aplica configura o que o componente fará ao passar o mouse por cima, nesse caso o card se move para cima por conta do translateY;
+- .IMAGE -> Configura o tamanho maximo que a imagem poderá ter dentro do card, isso é especificado pelo max-width (largura maxima) e max-height (altura maxima) e que tudo deverá ficar flotando no centro;
+- .PACOTES -> background-color faz com que o fundo fique com uma cor parecido com o creme, background-repeat: no-repeat;nao deixa a imagem se repetir para completar um lugar que ficaria em branco alinha com o comando object-fit: cover;
+- .CARD_PACOTES -> Define tamanho e espaçamento do padding de 4px;
+- FOOTER -> Tem uma largura de 100% para ocupar toda tela e com um height auto para acompanhar o conteudo sem que deforme algo. Displau: flex; align-items: center; e justify-content:space-around; faz com que os itens de bloco se alinhem e tenham espaços iguais entre eles;
   

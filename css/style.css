@@ -2,22 +2,17 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Courier New', Courier, monospace;
+  background-color: #091e31;
 }
 
 .menu-bar {
-  background-color: #333;
+  background-color: #091e31;
   color: white;
-  /* display: flex; */
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  position: fixed;
+  padding: 10px 0px 10px 0px;
   width: 100%;
-}
-
-.fa-solid {
-  font-size: 24px;
-  margin-right: 10px;
+  position: fixed;
 }
 
 a {
@@ -27,21 +22,26 @@ a {
   cursor: pointer;
 }
 
-.menu-bar input[type="text"] {
-  padding: 5px;
-  width: 30%;
+a:hover, button:hover {
+  color: red;
+  background-color: #28435b
 }
 
-/* img {
-  width: 100%;
-  height: 600px;
-  object-fit: cover;
-} */
+.button {
+  height: 29px;
+  width: 40px;
+  background-color: navajowhite;
+}
+
+.menu-bar input[type="text"] {
+  padding: 5px;
+  margin-left: 40px;
+  width: 30%;
+}
 
 .imagem-top {
   margin-top: 0px;
   padding-top: 0px;
-  text-align: center;
   background-image: url(/img/img1.jpg);
   background-size: cover;
   width: 100%;
@@ -51,10 +51,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 h1 {
-  color:white;
+  color:#e7e7d2;
   font-size: 60px;
 }
 
@@ -66,27 +67,25 @@ h3 {
 .container1 {
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
 
 .card1 {
   text-align: center;
   width: 33%;
   height: 250px;
-  /* background-color: cadetblue; */
 }
 
 .card2 {
   text-align: center;
   width: 33%;
   height: 250px;
-  /* background-color: cadetblue; */
 }
 
 .card3 {
   text-align: center;
   width: 33%;
   height: 250px;
-  /* background-color: cadetblue; */
 }
 
 .corpo   {
@@ -101,8 +100,6 @@ h3 {
   display: flex;
   text-align: center;
 }
-
-/* INICIO CARDS  */
 
 .coluna {
   display: flex;
@@ -131,8 +128,54 @@ h3 {
   max-height: 200px;
 }
 
+.pacotes {
+  background-color: #d1d1ab;
+  background-size: cover;
+  width: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  display: flex;
+  padding: 60px 0px 30px 0px;
+}
+
+.card_pacotes {
+  padding: 4px;
+  width: 100%;
+}
+
+.coluna_imgs {
+  color: #333;
+  padding-left: 2%;
+}
+
+iframe {
+  width: 80%;
+  height: auto;
+  padding-left: 10px;
+}
+
+.reserva {
+  color: white;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
 footer {
   width: 100%;
-  height: 70px;
-  background-color: gray;
+  height: auto;
+  background-color: #e7e7d2;
+  align-items: center;
+  justify-content:space-around;
+  display: flex; 
+  padding-top: 20px;
+}
+
+.footer span {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.footer p {
+  margin: 5px;
 }
