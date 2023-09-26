@@ -1,6 +1,9 @@
 # Site de viagens
 Site desenvolvido como prova do primeiro semestre da faculdade de Desenvolvimento de Software Multiplataforma na Fatec Dr. Thomaz Novelino, objetivo era desenvolver um site utilizando apenas HTML e CSS.
 
+# Link para o site hospedado
+<a href="https://habbiner-travel-world.netlify.app/">LINK PARA O SITE</a>
+
 # Tags utilizadas no HTML
 
 - HEAD
